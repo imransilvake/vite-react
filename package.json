@@ -1,7 +1,7 @@
 {
 	"name": "robot-gui",
 	"private": true,
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"type": "module",
 	"scripts": {
 		"start": "vite",
@@ -18,7 +18,7 @@
 		"release:major": "yarn release-it -- major --ci",
 		"release:minor": "yarn release-it -- minor --ci",
 		"release:patch": "yarn release-it -- patch --ci",
-        "prepare": "husky install"
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@fontsource/open-sans": "^5.0.13",
